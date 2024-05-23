@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Surendra protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f2828b0f00.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+  <div id="header">
+   <div class="container">
+       <nav>
+         <h1><span class="red">S</span>AMAL</h1>
+           <!--<img src="images/logo.png" alt="logo">-->
+           <ul id="sidemenu">
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#protfolio">protfolio</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <i class="fas fa-times" onclick="closemenu()"></i>
+           </ul>
+           <i class="fas fa-bars" onclick="openmenu()"></i>
+       </nav>
+       <div class="header">
+           <p>UI/UX Designer</p>
+           <h1>Hi, I'm <span class="auto-input"></span></h1>
+       </div>
+   </div>
+  </div> 
+  <!----------About------>
+  <div id="about">
+      <div class="container"> 
+          <div class="row">
+              <div class="about-col-1">
+                <img src="images/png.png" >
+              </div>
+              <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>  
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br> Designing Web Application</li>
+                        <li><span>VFX</span><br>Editing Video, Motion Graphics & Animated</li>
+                        <li><span>Graphics Design</span><br>Brochure, Templete design, Thumbnails, Photo Edit etc..</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2023 - Current</span><br> Web devloper </li>
+                        <li><span>2020-2022</span><br> VFX artist, Video Editior, Graphics Designer</li>
+                        <li><span>2017-2019</span><br> Electrical Engineer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022</span><br>Btech EEE</li> 
+                        <li><span>2016</span><br> Diploma EE</li>
+                        <li><span>2013</span><br>10th</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div> 
+
+  <!--------Services-->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>web design</h2>
+                <p>Website is one of the essential requirements for any kind of business. And the only thing more important than the website itself is to make it professional and user-friendly. Because your website market your business 24/7 and 75% of clients judge the credibility of your business based on how they feel when they visit your site.
+
+                    You reached the right place I will design  Website  or Redesign  Website for You..   Website Specialization --- Business, Education, Entertainment, Online Communities, Podcasting, Blog, Portfolio, Wedding</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>VFX Artist</h2>
+                <p>I am a professional Video Editor. I have 2 years of experience in editing with Premiere pro and after effects, Animate, Blender, Audition and I will provide the best quality of post-production for you.
+
+                    YOUTUBE videos editing,
+                    Vlogs editing,
+                    Travel vlogs editing,
+                    Documentaries,
+                    Wedding Teaser & highights videos
+Courses and tutorials,
+Green Screen Removal,
+Channel intro, opener, outro and end screen,
+Logo animation intros,
+Promo and montage,
+Special and minimal design 
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Graphics design</h2>
+                <p>Want to design a professional, clean & minimalist business card in less time period? Well, you are in the right place! I am here to help you!    Templete Design, Business card & photo edit, photo collapse instagram page design, barnd product design, Youtube thumbnails with an expert in Adobe Illustrator, Photoshop and Canva . I'll design your business card according to your concept and way to make a great first impression to your client!
+
+                    Just send me your logo and info whatever you want to put on the card, I'll make it alive!
+                    
+                    .</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+    
+  </div>
+
+  <!-----Protfolio------>
+  <div id="protfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" >
+                <div class="layer">
+                    <h3>Web Application</h3>
+                    <p>The app connects you to the talented people around the world Download it form play store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-4.png" >
+                <div class="layer">
+                    <h3>VFX</h3>
+                    <p>Motion Graphics and compositor, chroma remove
+                        character animation, promo video, voice noise
+                        reduction</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-6.png" >
+                <div class="layer">
+                    <h3>Graphics Work</h3>
+                    <p>The app connects you to the talented people around the world Download it form play store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+<!-----------Contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> surendrasamal000@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +91 7008582889</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/home.php"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/iam_surendra_samal/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="emial" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Surendra</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+  <script>
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+        tablink.classList.remove("active-links")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-links");
+    document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+
+  </script>
+  <script>
+     var sidemeu = document.getElementById("sidemenu");
+     function openmenu(){
+        sidemeu.style.right="0"
+     }
+     function closemenu(){
+        sidemeu.style.right="-200px"
+     }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxalcKAdnO9GpoGZBMMQKbTvk4hpoBvbGG3WN3BN_XvRg0tDZ82CKImOqflUZxpPCRC/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML= ""
+          },5000)
+          form.reset()
+            
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".auto-input",{
+        strings: ["Surendra Samal", "Web Developer", "VFX Artist", "Graphics Designer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+    })
+</script>
+</body>
+</html>
